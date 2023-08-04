@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #fffba6;
+    ;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 50px;
+    font-family: 'Oregano', cursive;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #346773;
+    border-width: 10px;
+    width: 20%;
+    opacity: 75%;
+}
+
+.top-container {
+    background-color: lightblue;
+    padding-top: 150px;
+    position: relative;
+}
+
+.profile {
+    padding-top: 10px;
+}
+
+.middle-container {
+    background-color: #fffba6;
+}
+
+
+.bottom-container {
+    background-color: #fffba6;
+    margin-top: 50px;
+    position: relative;
+}
+
+.stud {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 350px;
+    top: 200px;
+}
+
+
+.footer-gmail
+{
+    position: absolute;
+    width: 2%;
+    left: 34%;
+    bottom: 70px; 
+    
+}
+.footer-linkdin
+{
+    position: absolute;
+    width: 2%;
+    left: 44%;
+    bottom: 70px; 
+}
+.footer-insta
+{
+    position: absolute;
+    width: 2%;
+    right: 44%;
+    bottom: 70px;
+}
+.footer-fb
+{
+    position: absolute;
+    width: 2%;
+    right: 34%;
+    bottom: 70px;
+}
+
+.footer-link-gmail
+{
+    position: absolute;
+    font-size: 100%;
+    left: 33%;
+    bottom: 45px 
+}
+.footer-link-linkdin
+{
+    position: absolute;
+    font-size: 100%;
+    left: 42.75%;
+    bottom: 45px 
+}
+.footer-link-insta
+{
+    position: absolute;
+    font-size: 100%;
+    right: 42.5%;
+    bottom: 45px 
+}
+.footer-link-fb
+{
+    position: absolute;
+    font-size: 100%;
+    right: 32.5%;
+    bottom: 45px 
+}
+
+
+
+
+
+/*
+.footer-gmail
+{
+    position: absolute;
+    width: 4%;
+    left: 18%;
+    top: 100px 
+    
+}
+.footer-linkdin
+{
+    position: absolute;
+    width: 4%;
+    left: 38%;
+    top: 100px 
+}
+.footer-insta
+{
+    position: absolute;
+    width: 4%;
+    right: 38%;
+    top: 100px 
+}
+.footer-fb
+{
+    position: absolute;
+    width: 4%;
+    right: 18%;
+    top: 100px 
+}
+
+.footer-link-gmail
+{
+    position: absolute;
+    font-size: 150%;
+    left: 18%;
+    top: 175px 
+}
+.footer-link-linkdin
+{
+    position: absolute;
+    font-size: 150%;
+    left: 37%;
+    top: 175px
+}
+.footer-link-insta
+{
+    position: absolute;
+    font-size: 150%;
+    right: 37%;
+    top: 175px 
+}
+.footer-link-fb
+{
+    position: absolute;
+    font-size: 150%;
+    right: 17%;
+    top: 175px 
+}
+*/
