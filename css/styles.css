@@ -2,18 +2,23 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    background-color: #fffba6;
     ;
 }
 
 h1 {
-    margin-top: 0;
-    font-size: 50px;
+    margin: 0 auto;
+    font-size: 100px;
     font-family: 'Oregano', cursive;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
 }
 
 hr {
@@ -21,169 +26,137 @@ hr {
     border-top-style: dotted;
     border-color: #346773;
     border-width: 10px;
-    width: 20%;
-    opacity: 75%;
+    width: 10%;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: #346773;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4e9db5;
 }
 
 .top-container {
     background-color: lightblue;
-    padding-top: 150px;
+    padding-top: 100px;
     position: relative;
-}
-
-.profile {
-    padding-top: 10px;
+    margin-bottom: 0;
 }
 
 .middle-container {
-    background-color: #fffba6;
+    padding-top: 100px;
+
 }
 
+.profile {
+    padding-bottom: 50px;
+
+}
+
+.intro {
+    width: 21.5%;
+    margin: auto;
+}
 
 .bottom-container {
-    background-color: #fffba6;
+    background-color: #add8e6;
     margin-top: 50px;
     position: relative;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .stud {
     text-decoration: underline;
 }
 
+.skills {
+    padding-top: 50px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.contact-me {
+    padding: 50px 0 30px;
+}
+
+.copy-right {
+    color: #4e9db5;
+    font-size: 0.75rem;
+    padding-top: 20px;
+}
+
 .top-cloud {
     position: absolute;
-    right: 300px;
+    right: 250px;
     top: 50px;
 
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 350px;
+    left: 300px;
     top: 200px;
 }
 
-
-.footer-gmail
-{
-    position: absolute;
-    width: 2%;
-    left: 34%;
-    bottom: 70px; 
-    
-}
-.footer-linkdin
-{
-    position: absolute;
-    width: 2%;
-    left: 44%;
-    bottom: 70px; 
-}
-.footer-insta
-{
-    position: absolute;
-    width: 2%;
-    right: 44%;
-    bottom: 70px;
-}
-.footer-fb
-{
-    position: absolute;
-    width: 2%;
-    right: 34%;
-    bottom: 70px;
+.code {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
 }
 
-.footer-link-gmail
-{
-    position: absolute;
-    font-size: 100%;
-    left: 33%;
-    bottom: 45px 
+.illustration {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
 }
-.footer-link-linkdin
-{
-    position: absolute;
-    font-size: 100%;
-    left: 42.75%;
-    bottom: 45px 
+
+.btn {
+    background: #64afc4;
+    background-image: -webkit-linear-gradient(top, #64afc4, #4e9db5);
+    background-image: -moz-linear-gradient(top, #64afc4, #4e9db5);
+    background-image: -ms-linear-gradient(top, #64afc4, #4e9db5);
+    background-image: -o-linear-gradient(top, #64afc4, #4e9db5);
+    background-image: linear-gradient(to bottom, #64afc4, #4e9db5);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
 }
-.footer-link-insta
-{
-    position: absolute;
-    font-size: 100%;
-    right: 42.5%;
-    bottom: 45px 
-}
-.footer-link-fb
-{
-    position: absolute;
-    font-size: 100%;
-    right: 32.5%;
-    bottom: 45px 
+
+.btn:hover {
+    background: #86c3d4;
+    background-image: -webkit-linear-gradient(top, #86c3d4, #7dbbcc);
+    background-image: -moz-linear-gradient(top, #86c3d4, #7dbbcc);
+    background-image: -ms-linear-gradient(top, #86c3d4, #7dbbcc);
+    background-image: -o-linear-gradient(top, #86c3d4, #7dbbcc);
+    background-image: linear-gradient(to bottom, #86c3d4, #7dbbcc);
+    text-decoration: none;
 }
 
 
 
-
-
-/*
-.footer-gmail
-{
-    position: absolute;
-    width: 4%;
-    left: 18%;
-    top: 100px 
-    
-}
-.footer-linkdin
-{
-    position: absolute;
-    width: 4%;
-    left: 38%;
-    top: 100px 
-}
-.footer-insta
-{
-    position: absolute;
-    width: 4%;
-    right: 38%;
-    top: 100px 
-}
-.footer-fb
-{
-    position: absolute;
-    width: 4%;
-    right: 18%;
-    top: 100px 
+.footer-logo {
+    width: 3%;
+    margin: 10px 30px;
 }
 
-.footer-link-gmail
-{
-    position: absolute;
-    font-size: 150%;
-    left: 18%;
-    top: 175px 
+.footer-link {
+    margin: 10px 14px;
 }
-.footer-link-linkdin
-{
-    position: absolute;
-    font-size: 150%;
-    left: 37%;
-    top: 175px
-}
-.footer-link-insta
-{
-    position: absolute;
-    font-size: 150%;
-    right: 37%;
-    top: 175px 
-}
-.footer-link-fb
-{
-    position: absolute;
-    font-size: 150%;
-    right: 17%;
-    top: 175px 
-}
-*/
